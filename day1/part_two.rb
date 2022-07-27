@@ -1,5 +1,5 @@
-file_name = "input.txt"
-input = File.read(file_name)
+FILE_NAME = "input.txt"
+input = File.read(FILE_NAME)
 input_split = input.split
 num_increases = 0
 
